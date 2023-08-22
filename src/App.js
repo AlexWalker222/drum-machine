@@ -48,15 +48,28 @@ function App() {
       src: "https://s3.amazonaws.com/freecodecamp/drums/Cev_H2.mp3"
     }
   ];    
-  
+function playSound(selector) {
+ const audio = document.getElementById(selector);
+ console.log("audio");
+ audio.play();
+}
   return (
     <div className="App" id="drum-machine">
         <div id="display">
           <div className="drum-pads">
             {drumPads.map((drumPad) => (
-              <div className="drum-pad" id={drumPad.text}>
+              <div 
+               onClick={() => (
+                playSound(drumPad.text)
+               )} 
+               className="drum-pad"
+               id={drumPad.src}>
                 {drumPad.text}
-                <audio src={drumPad.src} id={drumPad.text} className="clip"></audio>
+                <audio 
+                  src={drumPad.src} 
+                  id={drumPad.text} 
+                  className="clip"
+                  ></audio>
               </div>
             ))}
           </div>
