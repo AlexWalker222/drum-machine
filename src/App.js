@@ -58,7 +58,8 @@ function playSound(selector) {
         <div id="display">
           <div className="drum-pads">
             {drumPads.map((drumPad) => (
-              <div 
+              <div
+               key={drumPad} 
                onClick={() => (
                 playSound(drumPad.text)
                )} 
