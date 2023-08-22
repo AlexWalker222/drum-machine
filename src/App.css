@@ -1,3 +1,12 @@
+.App {
+ color: red;
+ background-color: black;
+ border: 20px gold solid;
+ height: 100%vh;
+ margin: 0px;
+ position: grid;
+ width: 100%vw;
+}
 .drum-pads {
   justify-content: center;
   padding: 40px 4px 40px 4px;
@@ -17,4 +26,12 @@
   color: orangered;
   justify-content: center;
 
+}
+#display {
+ text-decoration: red;
+ background-color: aquamarine;
+ text-align: center;
+ position: static;
+ height: auto;
+ width: auto;
 }
