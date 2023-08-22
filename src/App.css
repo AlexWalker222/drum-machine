@@ -1,10 +1,20 @@
-.App {
-  text-align: center;
+.drum-pads {
+  justify-content: center;
+  padding: 40px 4px 40px 4px;
+  background-color: rgb(9, 255, 0);
+  display: grid;
+  grid-template-columns: 3ch 3ch 3ch; 
+  outline: red auto;
+  margin: 25% 25%;
+  text-decoration: yellow underline;
+  font-size: xXx-large;  
 }
+.drum-pad {
+  border: 3px dotted green;  
+  padding: 4px 4px 2px 2px;
+  margin: 4px 4px 2px 2px;
+  justify-content: space-evenly;
+  color: orangered;
+  justify-content: center;
 
-.display {
- display: grid;
- background-color: green;
- height: max-content;
- width:min-content;  
 }
