@@ -4,7 +4,8 @@
  border: 20px gold solid;
  height: 100%vh;
  margin: 0px;
- position: grid;
+ justify-content: space-around;
+ font-size: xXx-large;
  width: 100%vw;
 }
 .drum-pads {
