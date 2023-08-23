@@ -1,38 +1,42 @@
 .App {
- color: red;
- background-color: black;
- border: 20px gold solid;
- height: 100%vh;
- margin: 0px;
- justify-content: space-around;
- font-size: xXx-large;
- width: 100%vw;
+  color           : red;
+  background-color: black;
+  border          : 20px gold solid;
+  height          : 100%vh;
+  margin          : 0px;
+  justify-content : space-around;
+  font-size       : xXx-large;
+  width           : 100%vw;
 }
+
 .drum-pads {
-  justify-content: center;
-  padding: 40px 4px 40px 4px;
-  background-color: rgb(9, 255, 0);
-  display: grid;
-  grid-template-columns: 3ch 3ch 3ch; 
-  outline: red auto;
-  margin: 25% 25%;
-  text-decoration: yellow underline;
-  font-size: xXx-large;  
+  justify-content      : center;
+  padding              : 40px 4px 40px 4px;
+  background-color     : rgb(9, 255, 0);
+  display              : grid;
+  grid-template-columns: 3ch 3ch 3ch;
+  outline              : red auto;
+  margin               : 25% 25%;
+  text-decoration      : yellow underline;
+  font-size            : xXx-large;
 }
+
 .drum-pad {
-  border: 3px dotted green;  
-  padding: 4px 4px 2px 2px;
-  margin: 4px 4px 2px 2px;
+  border         : 3px dotted green;
+  padding        : 4px 4px 2px 2px;
+  margin         : 4px 4px 2px 2px;
   justify-content: space-evenly;
-  color: orangered;
+  color          : orangered;
   justify-content: center;
 
 }
+
 #display {
- text-decoration: red;
- background-color: aquamarine;
- text-align: center;
- position: static;
- height: auto;
- width: auto;
+  text-decoration : red;
+  background-color: aquamarine;
+  text-align      : center;
+  position        : static;
+  height          : auto;
+  width           : auto;
 }
+// new line
