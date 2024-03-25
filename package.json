@@ -1,26 +1,15 @@
 {
   "name": "drum-machine",
-<<<<<<< HEAD
   "version": "0.2.0",
   "private": true,
   "dependencies": {
-    "@types/jest": "~29.5.12",
     "@testing-library/react": "~14.2.2",
     "@testing-library/user-event": "~14.5.2",
-    "react": "^18.3.0-next-fecc288b7-20221025",
-    "react-dom": "^18.3.0-next-fecc288b7-20221025",
-=======
-  "homePage": "https://github.io/drum-machine",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
->>>>>>> fe07547d524e8ef9e12da69d4d983689d2e9cad8
-    "react-scripts": "5.0.1",
-    "web-vitals": "^3.5.2",
-    "postcss": "~8.4.38"
+    "@types/jest": "~29.5.12",
+    "react-scripts": "^5.0.1",
+    "web-vitals": "^3.5.2"
   },
+  "homePage": "https://github.io/drum-machine",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
